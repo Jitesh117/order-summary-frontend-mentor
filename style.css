@@ -5,7 +5,7 @@ body{
     margin:0;
     font-family: 'Outfit', sans-serif;
     color: hsl(224, 23%, 55%);
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
 }
 *{
     box-sizing: border-box;
@@ -78,7 +78,7 @@ a:hover{
 /* mobile layout */
 @media screen and (max-width:375px) {
     body{
-        background-image: url(/images/pattern-background-mobile.svg);
+        background-image: url(./images/pattern-background-mobile.svg);
     }
     .container{
         width: 85%;
